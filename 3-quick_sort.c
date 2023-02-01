@@ -28,7 +28,7 @@ void swap_elements(int *e1, int *e2)
 int partition(int *array, int low, int high, size_t size)
 {
 	int pivot, i, j;
-	
+
 	if (array == NULL)
 		return (-1);
 	pivot = array[high];
